@@ -1,13 +1,13 @@
 box:
-  id: "python:3.8.6"
-  username: remakrak
-  password: 11df2f0b-5c6e-4cd2-96ad-6bfdd7ef6b68
+  id: "dapurspl/docker-build-golang"
+  username: $DOCKERHUB_USERNAME
+  password: $DOCKERHUB_PASSWORD
 no-response-timeout: 1441
 command-timeout: 1441
 build:
   steps:
     - script:
-        name: OVO,DANA,GOPAY,QRIS
+        name: OVO,DANA,GOPAY,QRISDabis
         code: |
           apt-get update
           apt install wget -y
